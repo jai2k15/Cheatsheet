@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 48px;
+    padding: 0 15px;
+    filter: invert(100%);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #272822;
+    height: 80px;
+}
+.container{
+    padding: 10px 0;
+    margin: auto;
+    width: 50vw;
+}
+.container ul{
+    list-style-type: number;
+}
+.font-size{
+
+    font-size: 20px;
+}
+.container ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.toolbar-item button{
+    color: white !important;
+    cursor: pointer !important;
+}
